@@ -159,3 +159,58 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color:red;
   
 }
+.api-store-foote{
+  background-color: #f0f0ff;
+  padding: 40px 0;
+}
+.footer-content-wrapper{
+max-width: 1200px;
+margin: 0 auto;
+ padding: 0 20px;
+
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer-actions{
+ display: flex;
+align-items: center;
+gap: 15px;
+}
+.footer-columns{
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+.footer-column{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.footer-column li{
+
+  margin-bottom: 8px;
+}
+.footer-column li a{
+
+ text-decoration: none;
+ color: #555;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+   text-decoration: none;
+   background-color:blue;
+   border: 1px solid #ccc;
+   border-radius: 50%;
+   font-size: 25px;
+   font-weight: bold;
+   border-radius: 50%;
+   color: #fff;}
